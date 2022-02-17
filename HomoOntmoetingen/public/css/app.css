@@ -1,0 +1,52 @@
+body {
+    background-image: url('/storage/images/flag.jpg');
+    margin: auto;
+    width: 80%;
+    font-family: "Comic Sans MS", "comicsans", cursive;
+    src: url('/public/fonts/comicsans.ttf');
+}
+
+body p, h1 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar a {
+    background-color: rgb(71, 71, 71);
+    border: 5px black solid;
+    padding: 0.5em;
+    color: rgb(234, 0, 255);
+    text-decoration: none;
+    padding: 10%;
+}
+
+.navbar a:hover {
+    box-shadow: 5px 5px black;
+}
+
+.navbar {
+    margin: 2% auto auto auto;
+    width: 50%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.container {
+    background-color: rgb(71, 71, 71);
+    border: 5px black solid;
+    box-shadow: 5px 5px black;
+    padding: 2em;
+    margin-top: 5%;
+    font-size: 110%;
+}
+
+.container img {
+    background-color: rgb(71, 71, 71);
+    border: 5px black solid;
+    box-shadow: 5px 5px black;
+}
+
+.footer {
+    text-align: center;
+}
