@@ -14,13 +14,13 @@
 <body>
     <div class="navbar">
         <div class="col-3">
-            <a href="home">Home</a>
+            <a href="/">Home</a>
         </div>
         <div class="col-3">
             <a href="onzehomos">Onze Homos</a>
         </div>
         <div class="col-3">
-            <a href="blog">Blog</a>
+            <a href="review">review's</a>
         </div>
         <div class="col-3">
             <a href="contact">Contact</a>
@@ -51,7 +51,11 @@
                 <div class="col-8">
                     <h1>HEY ik ben Machiel Ten Bergen (M.T.B)</h1>
                     <p>
-                        text
+                        Hallo! mijn naam is Machiel! Ik ben de eigenaar van deze site, ik heb een liefde voor homo's, lgbtq personen en furry's!
+                      
+                        Voel je vrij om een berichtje te sturen via <a href="https://discord.gg/Gaph5aSSe9">Hier</a>
+  
+                        Ik hoop met jullie allen in contact te komen!
                     </p>
                 </div>
                 <div class="col-4">
@@ -63,8 +67,7 @@
 
     <div class="container">
         <div class="footer">
-        <p>BierPloeg Webdesing B.V</p>
-        <p>Homo Ontmoetingen B.V</p>
+        <p>Een websiote door BierPloeg Webdesing B.V voor Homo Ontmoetingen B.V</p>
     </div>
     </div>
 </body>
