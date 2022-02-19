@@ -21,4 +21,7 @@ Route::get('/', function () {
 
 Route::get('/onzehomos', [onzeHomosController::class, 'show']);
 
+Route::post('/review', [reviewController::class, 'show']);
 Route::get('/review', [reviewController::class, 'show']);
+
+Route::post('/sendReview', [reviewController::class, 'sendReview']);
