@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\onzeHomosController;
+use App\Http\Controllers\reviewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/onzehomos', [onzeHomosController::class, 'show']);
+
+Route::post('/review', [reviewController::class, 'show']);
+Route::get('/review', [reviewController::class, 'show']);
+
+Route::post('/sendReview', [reviewController::class, 'sendReview']);
